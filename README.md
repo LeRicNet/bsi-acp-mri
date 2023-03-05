@@ -6,8 +6,7 @@ This repository provides an end-to-end python with TensorFlow implementation of 
 
 This implementataion was used in the manuscript
 
-> Prince E, Ghosh D, Görg C, Hankinson TC. "*Uncertainty-Aware Deep Learning Classification of Adamantinomatous Craniopharyngioma from Preoperative MRI*"<br>
-(under review at [Diagnostics](https://www.mdpi.com/journal/diagnostics/special_issues/3USI9QQ3UD) as of Mar 3, 2023)
+> Prince E, Ghosh D, Görg C, Hankinson TC. "*Uncertainty-Aware Deep Learning Classification of Adamantinomatous Craniopharyngioma from Preoperative MRI*"(under review at [Diagnostics](https://www.mdpi.com/journal/diagnostics/special_issues/3USI9QQ3UD) as of Mar 3, 2023)
 
 ## Installation
 
