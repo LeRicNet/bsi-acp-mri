@@ -2,7 +2,7 @@
 
 ## Motivation
 
-This repository provides an end-to-end python with TensorFlow implementation of the Bayesian Subspace Inference methodology proposed by Izmailov et al. This method is applied to a deep learning image classifier for identifying ACP from other suprasellar tumors. The input of this system is 2D representative images of preoperative MRI of patients diagnosed with suprasellar tumor and the output of this system is the predicted diagnosis with calibrated predictive uncertainty.
+This repository provides an end-to-end python with TensorFlow implementation of the Bayesian Subspace Inference methodology proposed by [Izmailov et al](https://arxiv.org/abs/1907.07504), translated and adapted from the [drbayes](https://github.com/wjmaddox/drbayes) repository. This method is applied to a deep learning image classifier for identifying ACP from other suprasellar tumors. The input of this system is 2D representative images of preoperative MRI of patients diagnosed with suprasellar tumor and the output of this system is the predicted diagnosis with calibrated predictive uncertainty.
 
 This implementataion was used in the manuscript
 
@@ -30,8 +30,9 @@ There are two components to this repository: the scripts to reproduce the result
 ## Preloaded Data
 
 We provide:
-- the data used in the mansucript. This can be accessed via the python library.
-- the starting points/trained SWA models used to build the curve which we sampled from.
+- The ResNet feature embeddings of the preoperative MRI images used in the manuscript (available through the Bayes library).
+- the weights for the two (2) trained SWA models.
+- the weights for the trained curve model.
 
 ## Troubleshooting
 Please report any issues, comments, or quesitons to Eric Prince vis email at Eric.Prince@CUAnschutz.edu, or [file an issue](https://github.com/lericnet/issues).
