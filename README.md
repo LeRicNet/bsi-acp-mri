@@ -15,7 +15,7 @@ First, clone the repository:
 
 ```
 cd <location/to/store/package>
-git clone lericnet/bsi-acp-mri
+gh repo clone LeRicNet/bsi-acp-mri
 ```
 
 There are two components to this repository: the scripts to reproduce the results within the paper and the python library (Bayes). The Quick Start Section covers reproducing resuts, while the Advanced Application section details the use of the python library.
